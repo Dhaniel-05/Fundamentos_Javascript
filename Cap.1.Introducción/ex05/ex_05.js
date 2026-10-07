@@ -8,14 +8,14 @@ a = prompt('Ingrese un número: ');
 b = prompt('Ingrese otro número: ');
 
 //Resultados de las operaciones
-suma = a + b; //aquí la operación no se da pues se concatenan los valores por el operando +
+suma = Number (a) + Number(b); //aquí la operación no se da pues se concatenan los valores por el operando +
 resta = a - b;
 mult = a * b;
 div = a / b;
 residuo = a % b;
 potencia = a ** b;
 
-//Imptimir los resultados
+//Imprimir los resultados
 document.writeln(
     'Resultados de la operación a + b sin convertir valores', '<br>',
     'La suma es: ', suma, '<br>',
